@@ -14,8 +14,6 @@ def shuffle_deck(deck):
     
     random.shuffle(deck)
     
- 
-
 def create_board(size):
     '''int->list of str
        Precondition: size is even positive integer between 2 and 52
@@ -129,9 +127,6 @@ def clean_up_board(l):
             
     return sorted(playable_board)
 
-
- 
-
 def is_rigorous(l):
     '''list of str->bool
     Returns True if every element in the list appears exactlly 2 times or the list is empty.
@@ -153,7 +148,6 @@ def is_rigorous(l):
 
 ####################################################################
 
-
 def play_game(board):
     '''(list of str)->None
     Plays a concentration game using the given board
@@ -169,7 +163,6 @@ def play_game(board):
 
     for i in range(len(board)):
         hidden_board[i] = '*'
-
         
     #initializing variables we will need for the following two while loops (nested)
     first_position = 0
