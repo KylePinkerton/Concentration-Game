@@ -2,7 +2,7 @@ Python 3.6.0 (v3.6.0:41df79263a11, Dec 22 2016, 17:23:13)
 [GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
 Type "copyright", "credits" or "license()" for more information.
 >>> 
- RESTART: /Users/vida/Dropbox/courses/python-iti1120-2017/assignment3/A3-game-solved.py 
+
 
 ******************************************
 *                                        *
@@ -438,7 +438,6 @@ Press enter to continue.
 
 Congratulations! You completed the game with 5 guesses. That is 2 more than the best possible.
 >>> 
- RESTART: /Users/vida/Dropbox/courses/python-iti1120-2017/assignment3/A3-game-solved.py 
 
 ******************************************
 *                                        *
@@ -777,16 +776,10 @@ Enter two distinct positions on the board that you want revealed.
 i.e two integers in the range [1, 22]
 Enter position 1: 
 Traceback (most recent call last):
-  File "/Users/vida/Dropbox/courses/python-iti1120-2017/assignment3/A3-game-solved.py", line 238, in <module>
-    play_game(board)
-  File "/Users/vida/Dropbox/courses/python-iti1120-2017/assignment3/A3-game-solved.py", line 163, in play_game
-    p1 = int(input("Enter position 1: "))
 KeyboardInterrupt
 >>> # stopped the game on purpose ... now to Option 2
 >>> # the file names that I will enter ... they are in the same directory as my code
 >>> 
- RESTART: /Users/vida/Dropbox/courses/python-iti1120-2017/assignment3/A3-game-solved.py 
-
 ******************************************
 *                                        *
 *  __Welcome to my Concentration game__  *
@@ -1571,15 +1564,10 @@ Enter two distinct positions on the board that you want revealed.
 i.e two integers in the range [1, 20]
 Enter position 1: 
 Traceback (most recent call last):
-  File "/Users/vida/Dropbox/courses/python-iti1120-2017/assignment3/A3-game-solved.py", line 238, in <module>
-    play_game(board)
-  File "/Users/vida/Dropbox/courses/python-iti1120-2017/assignment3/A3-game-solved.py", line 163, in play_game
-    p1 = int(input("Enter position 1: "))
 KeyboardInterrupt
 >>> # stopped the game
 >>> # let's see more examples with Option 2
 >>> 
- RESTART: /Users/vida/Dropbox/courses/python-iti1120-2017/assignment3/A3-game-solved.py 
 
 ******************************************
 *                                        *
@@ -1724,14 +1712,9 @@ Enter two distinct positions on the board that you want revealed.
 i.e two integers in the range [1, 8]
 Enter position 1: 
 Traceback (most recent call last):
-  File "/Users/vida/Dropbox/courses/python-iti1120-2017/assignment3/A3-game-solved.py", line 238, in <module>
-    play_game(board)
-  File "/Users/vida/Dropbox/courses/python-iti1120-2017/assignment3/A3-game-solved.py", line 163, in play_game
-    p1 = int(input("Enter position 1: "))
 KeyboardInterrupt
 >>> #stopped again
 >>> 
- RESTART: /Users/vida/Dropbox/courses/python-iti1120-2017/assignment3/A3-game-solved.py 
 
 ******************************************
 *                                        *
@@ -1871,8 +1854,6 @@ The resulting board is empty.
 Playing Concentration game with an empty board is impossible.
 Good bye
 >>> 
- RESTART: /Users/vida/Dropbox/courses/python-iti1120-2017/assignment3/A3-game-solved.py 
-
 ******************************************
 *                                        *
 *  __Welcome to my Concentration game__  *
@@ -2202,7 +2183,6 @@ Press enter to continue.
 
 Congratulations! You completed the game with 3 guesses. That is 0 more than the best possible.
 >>> 
- RESTART: /Users/vida/Dropbox/courses/python-iti1120-2017/assignment3/A3-game-solved.py 
 
 ******************************************
 *                                        *
@@ -2218,14 +2198,8 @@ Would you like (enter 1 or 2 to indicate your choice):
 You chose to load a deck of cards from a file
 Enter the name of the file: bo6.txt
 Traceback (most recent call last):
-  File "/Users/vida/Dropbox/courses/python-iti1120-2017/assignment3/A3-game-solved.py", line 220, in <module>
-    board=read_raw_board(file)
-  File "/Users/vida/Dropbox/courses/python-iti1120-2017/assignment3/A3-game-solved.py", line 77, in read_raw_board
-    raw_board = open(file).read().splitlines()
 FileNotFoundError: [Errno 2] No such file or directory: 'bo6.txt'
 >>> 
- RESTART: /Users/vida/Dropbox/courses/python-iti1120-2017/assignment3/A3-game-solved.py 
-
 ******************************************
 *                                        *
 *  __Welcome to my Concentration game__  *
@@ -2365,8 +2339,6 @@ Playing Concentration game with an empty board is impossible.
 Good bye
 >>>
 >>> 
- RESTART: /Users/vida/Dropbox/courses/python-iti1120-2017/assignment3/A3-game-solved.py 
-
 ******************************************
 *                                        *
 *  __Welcome to my Concentration game__  *
@@ -2504,12 +2476,7 @@ Ready to play ...
 
 *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    
 1    2    3    4    5    6    7    8    9    10   11   12   13   14   15   16   17   18   19   20   Traceback (most recent call last):
-  File "/Users/vida/Dropbox/courses/python-iti1120-2017/assignment3/A3-game-solved.py", line 238, in <module>
-    play_game(board)
-  File "/Users/vida/Dropbox/courses/python-iti1120-2017/assignment3/A3-game-solved.py", line 153, in play_game
-    print_board(discovered)
-  File "/Users/vida/Dropbox/courses/python-iti1120-2017/assignment3/A3-game-solved.py", line 43, in print_board
-    print('{0:4}'.format(str(i+1)), end=' ')
+
 KeyboardInterrupt
 >>> 
 >>> # stopped the game
@@ -2836,10 +2803,6 @@ Enter two distinct positions on the board that you want revealed.
 i.e two integers in the range [1, 8]
 Enter position 1: 
 Traceback (most recent call last):
-  File "<pyshell#104>", line 1, in <module>
-    play_game(['$', '#', 'E', '$', '#', 'E', 'D', 'D'])
-  File "/Users/vida/Dropbox/courses/python-iti1120-2017/assignment3/A3-game-solved.py", line 163, in play_game
-    p1 = int(input("Enter position 1: "))
 KeyboardInterrupt
 >>> # stopped the playing
 >>> #that is all
