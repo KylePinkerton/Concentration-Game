@@ -237,8 +237,6 @@ def play_game(board):
     relative_score = int(guesses - len(board)/2)
     print('Congratulations! you completed the game with {} guesses. That is {} more than the best possible.' .format(guesses, relative_score))
     
-
-
     # this is the funciton that plays the game
  
 
@@ -247,8 +245,7 @@ def play_game(board):
 ####################################################################################################################################
 
 if __name__ == "__main__":
-        
-
+    
     #WELCOME MESSAGE
     print('*'*42)
     print('*' + ' '*40 + '*')
@@ -321,7 +318,6 @@ if __name__ == "__main__":
         board_from_file_size = str(len(board))
         string_size = len(board_from_file_size)
 
-        
         if is_rigorous(board):
             #create a message telling the user that the deck is playable, rigorous,
             #and informing the user about the total number of cards in the deck
