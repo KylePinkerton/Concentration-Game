@@ -1,18 +1,11 @@
 import random
 
-#####################################################
-# INDIVIDUALlY IMPLEMENTED FUNCTIONS
-#####################################################
 def create_space():
     """() -> None
     Prints 51 lines of white space
     """
     print('\n'*50)
         
-#####################################################
-# GIVEN FUNCTIONS
-#####################################################
-
 def shuffle_deck(deck):
     '''(list of str)->None
        Shuffles the given list of strings representing the playing deck    
