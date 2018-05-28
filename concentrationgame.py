@@ -1,8 +1,3 @@
-# Family name: Kyle Pinkerton
-# Student number:  8122569
-# Course: IT1 1120 
-# Assignment Number 3
-
 import random
 
 #####################################################
@@ -26,7 +21,7 @@ def shuffle_deck(deck):
     
     random.shuffle(deck)
     
-    # YOUR CODE GOES HERE
+ 
 
 def create_board(size):
     '''int->list of str
@@ -81,7 +76,7 @@ def print_revealed(discovered, p1, p2, original_board):
     discovered[p1-1] = a
     discovered[p2-1] = b 
 
-    # YOUR CODE GOES HERE
+    
     
 
 #############################################################################
@@ -142,9 +137,7 @@ def clean_up_board(l):
     return sorted(playable_board)
 
 
-    # YOUR CODE GOES HERE
-    
-
+ 
 
 def is_rigorous(l):
     '''list of str->bool
@@ -261,9 +254,7 @@ def play_game(board):
 
 
     # this is the funciton that plays the game
-    # YOUR CODE GOES HERE
-
-
+ 
 
 ####################################################################################################################################
 #main
@@ -302,7 +293,7 @@ if __name__ == "__main__":
         else: 
             print(choice, 'is not exisiting option. Please try again. Enter 1 or 2 to indicate your choice')
 
-    # YOUR CODE TO GET A CHOICE 1 or CHOCE 2 from a player GOES HERE
+    
     
     ####################################### OPTION 1 — Generating a Rigorous Deck ##################################################
     if choice == 1:
@@ -332,11 +323,7 @@ if __name__ == "__main__":
         #play the game 
         play_game(board)
 
-    # YOUR CODE FOR OPTION 1 GOES HERE
-    # In option 1 somewhere you need to and MUST have a call like this:
-    # board=create_board(size)
-
-        
+       
 
     ####################################### OPTION 2 — Loading a deck of cards from a File #########################################
     if choice == 2:
@@ -454,11 +441,3 @@ if __name__ == "__main__":
                
         
 
-    # YOUR CODE FOR OPTION 2 GOES HERE
-    # In option 2 somewhere you need to and MUST have the following 4 lines of code one after another
-    #
-    #print("You chose to load a deck of cards from a file")
-    #file=input("Enter the name of the file: ")
-    #file=file.strip()
-    #board=read_raw_board(file)
-    #board=clean_up_board(board)
