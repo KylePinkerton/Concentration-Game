@@ -5,7 +5,7 @@ To learn more about the concentration game, visit https://en.wikipedia.org/wiki/
 
 A file, example_runs.txt, is provided as an example to show the proper execution of the program.
 
-During the execution of the program, the player can choose between the following two options, depending on how they would like to play the game:
+During the execution of the program, the player can choose between the following two options, depending on how they would like to play the concentration game:
 
 (1) To have a rigorous deck, and thus board, generated automatically for them.
 
